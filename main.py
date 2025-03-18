@@ -9,8 +9,8 @@ app = Flask(__name__)
 
 # 读取环境变量（Railway 部署时填写）
 import os
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHANNEL_ID = os.getenv("CHANNEL_ID")
+BOT_TOKEN = os.getenv("7644254528:AAHiXaO8dzKf7wWTwaOmwpyiMTBvnH9CoZY")
+CHANNEL_ID = os.getenv("-1002057590529")
 
 # 商品列表（可自行修改）
 products = [
